@@ -26,6 +26,10 @@ class HomeController extends Controller
     public function recetas(){
         return view('home.recetas');
     }
+
+    public function contactos(){
+        return view('home.contactos');
+    }
 }
 
 

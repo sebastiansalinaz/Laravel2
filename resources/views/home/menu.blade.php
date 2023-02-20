@@ -25,7 +25,7 @@
         <a href="<?php echo e(route('menu')); ?>">menu</a>
         <a href="<?php echo e(route('productos')); ?>">productos</a>
         <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
-        <a href="">contacto</a>
+        <a href="{{route('contactos')}}">contacto</a>
         <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
   </nav>
 
@@ -61,7 +61,7 @@
 
         <div class="box">
             <img src="images/tomate..png" alt="">
-            <h3>tomate acordeon</h3>
+            <h3>tomate acordeon en su jugo</h3>
             <div class="price">$16,300 <span>17,300</span></div>
             <a href="#" class="btn">añadir al carrito</a>
         </div>

@@ -39,6 +39,7 @@ Route::get('/gost',[HomeController::class,'gost'])->name('productos');
 Route::get('/recetas',[HomeController::class,'recetas'])->name('recetas');
 Route::get('/Register', [RegisterController::class, 'show'])->name('register');
 Route::post('/Register', [RegisterController::class, 'showRegister'])->name('registerPost');
+Route::get('/contactos',[HomeController::class,'contactos'])->name('contactos');
 
 
 
