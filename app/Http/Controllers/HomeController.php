@@ -30,7 +30,22 @@ class HomeController extends Controller
     public function contactos(){
         return view('home.contactos');
     }
+
+    public function nosotros(){
+        return view('home.nosotros');
+    }
+
+
+
+
+
+
+
+
+
+
 }
+
 
 
 

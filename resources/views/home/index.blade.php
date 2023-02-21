@@ -74,7 +74,7 @@
             <h3>que hace que senakitch sea especial?</h3>
             <p>debes saber que ademas de mostrar gran variedades de productos el sena cuenta con grandiosos  aprendices de desarrollo y cocina que hace posible que disfrutes de nuestra web</p>
             <p>lo que nos hace especial es que trabajando en equipo podemos llegar a lograr grandes cosas y romper barreras</p>
-            <a href="#" class="btn">Aprende más</a>
+            <a href="<?php echo e(route('nosotros')); ?>" class="btn">Aprende más</a>
         </div>
 
     </div>

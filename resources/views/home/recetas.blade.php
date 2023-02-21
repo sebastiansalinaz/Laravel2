@@ -36,7 +36,7 @@
     </div>
 
     <div class="search-form">
-        <input type="search" id="search-box" placeholder="que estas buscando...">
+        <input type="text" id="textoabuscar" placeholder="que estas buscando...">
         <label for="search-box" class="fas fa-search"></label>
     </div>
 
