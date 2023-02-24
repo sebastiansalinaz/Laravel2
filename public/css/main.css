@@ -1,6 +1,6 @@
 
 :root{
-    --main-color: rgb(253, 111, 60);
+    --main-color: rgb(42, 227, 48);
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -51,6 +51,7 @@ body {
 
 .header .logo img{
     height: 6rem;
+    
 }
 
 .header .navbar a{
@@ -175,21 +176,17 @@ ul {
     font-size: 17px;
 }
 
-.logo {
+h1{
     text-align: center;
     font-size: 3em;
     top: 100%;
-   
-}
 
-.logo span {
-    color: rgb(253, 111, 60);
 }
 
 
 
 .contact-wrapper > * {
-    box-shadow: 0 0 20px 0 rgb(253, 111, 60);
+    box-shadow: 0 0 20px 0 rgb(99, 224, 31);
     padding: 1em;
     position: relative;
     top: 50%;
@@ -231,11 +228,11 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid rgb(253, 111, 60);;
+    border-bottom: 1px solid rgb(63, 212, 55);;
 }
 
 .contact-form form button {
-    background: rgb(253, 111, 60);;
+    background: rgb(127, 187, 15);;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -243,7 +240,7 @@ ul {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: rgb(255, 143, 102);;
+    background: rgb(43, 172, 31);;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;

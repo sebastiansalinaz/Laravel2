@@ -48,7 +48,7 @@
 
 <section class="review" id="review">
 
-    <h1 class="heading"> su <span>opinion</span> </h1>
+    <h1> su <span>opinion</span> </h1>
 
     <div class="box-container">
 

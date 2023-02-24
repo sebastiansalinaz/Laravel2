@@ -49,7 +49,7 @@
     
         <div class="content">
     
-            <h1 class="logo">Tu <span>Contacto</span></h1>
+            <h1 class="heading">Tu <span>Contacto</span></h1>
     
             <div class="contact-wrapper animated bounceInUp">
                 <div class="contact-form">

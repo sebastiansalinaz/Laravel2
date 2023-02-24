@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Senakicht</title>
     <link rel="stylesheet" href="{{ asset('css/cer.css') }}">
     
@@ -61,24 +61,48 @@
             </div>
             <div class="sesgoabajo"></div>
         </section>
+
+
         <section class="miembros">
-            <div class="contenedor">
-                <h2 class="sobre-nosotros">Nuestro equipo</h2>
-                <h3 class="slogan">Conoce a nuestro equipo de trabajo</h3>
-                <div class="cards">
-                    <div class="card">
-                        <img src="img/lol.png" alt="">
-                        <h4>Sebastian Paz</h4>
-                        <p>Lorem ipsum dolor sit.</p>
+             <div class="team">
+        <h1>Nuestro<span>equipo</span></h1>
+        <h3 class="slogan">Conoce a nuestro equipo de trabajo</h3>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="image/chef1.png">
+
+                <div class="info">
+                    <h2 class="name">Sebastian Paz</h2>
+                    <p class="bio">Programador</p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <div class="card">
-                        <img src="img/lol.png" alt="">
-                        <h4>Sebastian Lopez</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </div>
-                
+
                 </div>
+
             </div>
+
+            <div class="profile">
+                <img src="image/chef2.png">
+
+                <div class="info">
+                    <h2 class="name">Sebastian Lopez</h2>
+                    <p class="bio">Programador</p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
        
     </main>
