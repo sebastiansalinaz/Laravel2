@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{ asset('/img/senaa.ico') }}">
+    <title>Opiniones</title>
+    <link rel="icon" href="{{ asset('/img/logosena.ico') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <title>Document</title>
 </head>
 <body>
+    
 
 
 <header class="header">
 
     <a href="#" class="logo">
-        <img src="/img/Logo-sena-blanco-sin-fondo.png" alt="">
+        <img src="img/logosena.png" alt="">
         
     </a>
 
@@ -48,123 +49,106 @@
 
 <section class="review" id="review">
 
-    <h1> su <span>opinion</span> </h1>
+<br><br><br><br>
+<br><br><br><br>
 
-    <div class="box-container">
+<h1 class="heading"> su <span>opinion</span> </h1>
 
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>Que meloooo, ojala pudieran haber mas paginas asi tan buenas, ojala las demas paginas puedan tomar ejemplo de paginas asi como estas.</p>
-            <img src="images/anuel.jpg" class="user" alt="">
-            <h3>la dobleAA</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
+<div class="box-container">
 
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>que buena web, puedo encontrar todo lo que busco tanto en recetas como en productos pero creo que le falta algo, aun pueden mejorar sigan asi que bendicion.</p>
-            <img src="images/descarga.jpg" class="user" alt="">
-            <h3>juan cruz</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>Que meloooo, ojala pudieran haber mas paginas asi tan buenas, ojala las demas paginas puedan tomar ejemplo de paginas asi como estas.</p>
+        <img src="images/anuel.jpg" class="user" alt="">
+        <h3>la dobleAA</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
         </div>
-        
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
-            <img src="images/fuicioso.jpg" class="user" alt="">
-            <h3>fabian alberto</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
     </div>
 
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>que buena web, puedo encontrar todo lo que busco tanto en recetas como en productos pero creo que le falta algo, aun pueden mejorar sigan asi que bendicion.</p>
+        <img src="images/descarga.jpg" class="user" alt="">
+        <h3>juan cruz</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+    
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
+        <img src="images/fuicioso.jpg" class="user" alt="">
+        <h3>fabian alberto</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>         
+
+</div>
+<br>
+</section><section class="review" id="review">
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>Que meloooo, ojala pudieran haber mas paginas asi tan buenas, ojala las demas paginas puedan tomar ejemplo de paginas asi como estas.</p>
+        <img src="images/westcol.jpeg" class="user" alt="">
+        <h3>El West</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>que buena web, puedo encontrar todo lo que busco tanto en recetas como en productos pero creo que le falta algo, aun pueden mejorar sigan asi que bendicion.</p>
+        <img src="images/jordi.jpeg" class="user" alt="">
+        <h3>Jorge</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+    
+    <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote">
+        <p>esta muy buena la pagina trae muy buenas cosas pero le faltan algunos cambios y optimizarla pero de resto todo bello todo bonito.</p>
+        <img src="images/yina.jpeg" class="user" alt="">
+        <h3>Yina</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+    
+
+</div>
+<br>
 </section>
 
 

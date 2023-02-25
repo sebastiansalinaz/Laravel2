@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color: rgb(22, 209, 22);
+    --main-color: rgb(51, 137, 51);
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -225,10 +225,10 @@ section{
 
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
+    font-weight: 300;
     line-height: 1.0;
     padding:1rem 0;
-    color: rgb(73, 252, 67);
+    color: rgb(51, 137, 51);
 }
 
 
@@ -389,7 +389,7 @@ section{
 }
 
 .review h1 span{
-    color: #15b735;
+    color: rgb(51, 137, 51);
     font-family: mv boli;
 }
 

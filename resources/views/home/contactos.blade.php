@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="icon" href="{{ asset('/img/senaa.ico') }}">
+    <title>Contacto</title>
+    <link rel="icon" href="{{ asset('/img/logosena.ico') }}">
     <link rel="stylesheet" href="{{ asset ('css/main.css') }}">
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -18,7 +18,7 @@
     <header class="header">
 
         <a href="#" class="logo">
-            <img src="img/Logo-sena-blanco-sin-fondo.png" alt="">
+        <img src="img/logosena.png" alt="">
             
         </a>
     

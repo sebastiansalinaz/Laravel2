@@ -13,10 +13,12 @@
 </head>
 
 
+
+
 <body>
     <header>
         <div class="textos">
-            <h1 class="titulo">Senakicht</h1>
+            <h1 class="titulo">Senakitch</h1>
             <h3 class="subtitulo">Compartiendo Nuestros Conocimientos</h3>
         </div>
         <div class="sesgoabajo"></div>
