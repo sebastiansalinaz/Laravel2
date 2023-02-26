@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacto</title>
-    <link rel="icon" href="{{ asset('/img/logosena.ico') }}">
+    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
     <link rel="stylesheet" href="{{ asset ('css/main.css') }}">
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -23,13 +23,13 @@
         </a>
     
         <nav class="navbar">
-            <a href="{{route('home')}}">inicio</a>
-            <a href="">acerca de</a>
-            <a href="{{route('menu')}}">menu</a>
-            <a href="{{route('productos')}}">productos</a>
-            <a href="{{route('opiniones')}}">opiniones</a>
-            <a href="">contacto</a>
-            <a href="{{route('recetas')}}">Recetas</a>
+        <a href="<?php echo e(route('home')); ?>">inicio</a>
+        <a href="<?php echo e(route('nosotros')); ?>">acerca de</a>
+        <a href="<?php echo e(route('menu')); ?>">menu</a>
+        <a href="<?php echo e(route('productos')); ?>">productos</a>
+        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
+        <a href="{{route('contactos')}}">contacto</a>
+        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
         </nav>
     
         <div class="icons">
@@ -96,7 +96,7 @@
     
         </div>
     
-        
+      
     <section class="footer">
     
         <div class="share">
@@ -108,17 +108,18 @@
         </div>
     
         <div class="links">
-            <a href="#home">inicio</a>
-            <a href="#about">acerca de</a>
-            <a href="#menu">menu</a>
-            <a href="#products">productos</a>
-            <a href="#review">opiniones</a>
-            <a href="#contact">contacto</a>
-            <a href="#blogs">recetas</a>
+        <a href="<?php echo e(route('home')); ?>">inicio</a>
+        <a href="<?php echo e(route('nosotros')); ?>">acerca de</a>
+        <a href="<?php echo e(route('menu')); ?>">menu</a>
+        <a href="<?php echo e(route('productos')); ?>">productos</a>
+        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
+        <a href="{{route('contactos')}}">contacto</a>
+        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
         </div>
     
         <div class="credit">creado por <span>Senakitch</span> | Todos los derechos reservados</div>
     
     </section>
 </body>
+<script src="{{ asset('js/script.js') }}"></script>
 </html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio Sesion </title>
     <link rel="stylesheet" href="{{ asset('master.css') }}">
-    <link rel="icon" href="senakitch - copia/senakitch/res/senaa.ico">
+    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
 
     
 </head>
@@ -14,7 +14,7 @@
 <form action="/login" method="POST">
     @csrf
     <div class="Login-box">
-        <img class="avatar" src="img/sen.jpg" alt="Logo de Fazt">
+        <img class="avatar" src="img/elsena.png" alt="Logo de Fazt">
         <h1>SENAKITCH</h1>
          <!--CORREO-->
          

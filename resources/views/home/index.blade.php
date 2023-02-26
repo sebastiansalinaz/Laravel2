@@ -3,7 +3,7 @@
 <head>
   
     <title>Senakitch</title>
-    <link rel="icon" href="{{ asset('/img/logosena.ico') }}">
+    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
@@ -358,13 +358,13 @@
     </div>
 
     <div class="links">
-        <a href="#home">inicio</a>
-        <a href="#about">acerca de</a>
-        <a href="#menu">menu</a>
-        <a href="#products">productos</a>
-        <a href="#review">opiniones</a>
-        <a href="#contact">contacto</a>
-        <a href="#blogs">recetas</a>
+    <a href="<?php echo e(route('home')); ?>">inicio</a>
+        <a href="<?php echo e(route('nosotros')); ?>">acerca de</a>
+        <a href="<?php echo e(route('menu')); ?>">menu</a>
+        <a href="<?php echo e(route('productos')); ?>">productos</a>
+        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
+        <a href="{{route('contactos')}}">contacto</a>
+        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
     </div>
 
     <div class="credit">creado por <span>Senakitch</span> | Todos los derechos reservados</div>

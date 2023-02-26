@@ -19,7 +19,7 @@ body {
     box-sizing: border-box;
     padding: 70px 30px;
     border-radius: 20px;
-    border-color: rgb(253, 111, 60);
+    border-color: rgb(51, 137, 51);
     
 }
 
@@ -64,11 +64,11 @@ body {
 .Login-box input[type="password"] {
  
     border: none;
-    border-bottom: 1px solid rgb(253, 111, 60);
+    border-bottom: 1px solid rgb(51, 137, 51);
     background: transparent;
     outline: none;
     height: 40px;
-    color: rgb(253, 111, 60);
+    color: rgb(51, 137, 51);
     font-size: 16px;
 
 }
@@ -82,7 +82,7 @@ body {
     border: none;
     outline: none;
     height: 40px;
-    background: rgb(253, 111, 60);
+    background: rgb(51, 137, 51);
     color: #fff;
     font-size: 16px;
     border-radius: 40px;
@@ -112,7 +112,7 @@ body {
 }
 
 .Login-box a:hover {
-    color: rgb(253, 111, 60);
+    color: rgb(51, 137, 51);
     
 }
 
@@ -124,6 +124,7 @@ body {
     letter-spacing: .1,1rem;
     transition:1s;
     transform:scale(1.1);
+
     
 }
 
@@ -131,5 +132,18 @@ body {
     letter-spacing: .1,1rem;
     transition:1s;
     transform:scale(1.1);
+    
+
+}
+
+button[type="submit"]:hover{
+ 
+    background-color: rgb(0, 171, 0);
+
+}
+
+input[type="button"]:hover{
+
+    background-color: rgb(14, 114, 255);
 
 }
