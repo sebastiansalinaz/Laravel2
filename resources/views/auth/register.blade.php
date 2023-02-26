@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="icon" href="{{ asset('/img/senaa.ico') }} ">
+    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
     <link rel="stylesheet" href="{{ asset('regis.css') }}">
     <script scr="{{asset('js/js.js')}}"></script>
 </head>
@@ -18,7 +18,7 @@
 
 
     <div class="registro">
-        <img class="avatar" src="{{ asset('img/sen.jpg') }}" alt="Logo de Fazt">
+        <img class="avatar" src="{{ asset('img/elsena.png') }}" alt="Logo de Fazt">
 
         <h1>Crear cuenta</h1>
         <!--nombre-->
