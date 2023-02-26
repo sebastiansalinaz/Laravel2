@@ -115,7 +115,6 @@
 
     <section class="footer">
 
-<<<<<<< HEAD
         <div class="share">
             <a href="https://www.facebook.com/SENA" class="fab fa-facebook-f"></a>
             <a href="https://twitter.com/SENAComunica" class="fab fa-twitter"></a>
@@ -123,17 +122,6 @@
             <a href="https://co.linkedin.com/school/servicio-nacional-de-aprendizaje-sena-/" class="fab fa-linkedin"></a>
             <a href="https://co.pinterest.com/senacomunica/" class="fab fa-pinterest"></a>
         </div>
-=======
-    <div class="links">
-    <a href="<?php echo e(route('home')); ?>">inicio</a>
-        <a href="<?php echo e(route('nosotros')); ?>">acerca de</a>
-        <a href="<?php echo e(route('menu')); ?>">menu</a>
-        <a href="<?php echo e(route('productos')); ?>">productos</a>
-        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
-        <a href="{{route('contactos')}}">contacto</a>
-        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
-    </div>
->>>>>>> 7e13de0910ddb8dd34eb64defc36be8579e62921
 
         <div class="links">
             <a href="<?php echo e(route('home')); ?>">inicio</a>

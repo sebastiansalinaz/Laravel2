@@ -1,54 +1,4 @@
-<<<<<<< HEAD
-@extends('layauts.app')
-
-@section('content')
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-    <title>Menu</title>
-</head>
-<body>
-    
-<header class="header">
-
-  <a href="#" class="logo">
-    <img src="img/logosena.png" alt="">
-    
-  </a>
-
-    <nav class="navbar">
-        <a href="<?php echo e(route('home')); ?>">inicio</a>
-        <a href="<?php echo e(route('nosotros')); ?>">acerca de</a>
-        <a href="<?php echo e(route('menu')); ?>">menu</a>
-        <a href="<?php echo e(route('productos')); ?>">productos</a>
-        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
-        <a href="{{route('contactos')}}">contacto</a>
-        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
-  </nav>
-
-<div class="icons">
-    <div class="fas fa-search" id="search-btn"></div>
-    <div class="fas fa-shopping-cart" id="cart-btn"></div>
-    <div class="fas fa-bars" id="menu-btn"></div>
-</div>
-
-<div class="search-form">
-    <input type="search" id="search-box" placeholder="que estas buscando...">
-    <label for="search-box" class="fas fa-search"></label>
-</div>
-
-
-
-</header><br>
->>>>>>> 7e13de0910ddb8dd34eb64defc36be8579e62921
+<x-layauts.app title="menu">
 
 
 
@@ -162,4 +112,4 @@
 <script src="{{ asset('js/script.js') }}"></script>
 
 
-@endsection
+</x-layauts.app>

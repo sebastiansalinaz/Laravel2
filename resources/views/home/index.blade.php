@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-@extends('layauts.app')
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  
-    <title>Senakitch</title>
-    <link rel="icon" href="{{ asset('/img/senakitch.ico') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
->>>>>>> 7e13de0910ddb8dd34eb64defc36be8579e62921
-
-@section('content')
 
 
+<x-layauts.app title="Senakicth">
+    
+       
 
 <section class="home" id="home">
 
@@ -342,5 +331,5 @@
 </section>
 
 <script src="{{ asset('js/script.js') }}"></script>
- 
-@endsection
+
+</x-layauts.app>
