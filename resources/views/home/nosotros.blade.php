@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Senakicht</title>
     <link rel="stylesheet" href="{{ asset('css/cer.css') }}">
-    
+
 </head>
 
 
@@ -27,7 +27,7 @@
         <section class="acerca-de">
             <div class="contenedor">
                 <h2 class="sobre-nosotros">Sobre nosotros</h2>
-               
+
                 <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic totam necessitatibus
                     tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed, odio
                     dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non. Tenetur
@@ -36,9 +36,11 @@
                     tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed, odio
                     dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non. Tenetur
                     repudiandae distinctio inventore voluptate fugit laborum?</p>
-               
+
             </div>
         </section>
+
+        
         <section class="galeria">
             <div class="sesgoarriba"></div>
             <div class="imagenes none">
@@ -66,73 +68,73 @@
 
 
         <section class="miembros">
-             <div class="team">
-        <h1>Nuestro<span>equipo</span></h1>
-        <h3 class="slogan">Conoce a nuestro equipo de trabajo</h3>
+            <div class="team">
+                <h1>Nuestro<span>equipo</span></h1>
+                <h3 class="slogan">Conoce a nuestro equipo de trabajo</h3>
 
-        <div class="team_box">
-            <div class="profile">
-                <img src="image/chef1.png">
+                <div class="team_box">
+                    <div class="profile">
+                        <img src="image/chef1.png">
 
-                <div class="info">
-                    <h2 class="name">Sebastian Paz</h2>
-                    <p class="bio">Programador</p>
+                        <div class="info">
+                            <h2 class="name">Sebastian Paz</h2>
+                            <p class="bio">Programador</p>
 
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+
+                        </div>
+
                     </div>
 
-                </div>
+                    <div class="profile">
+                        <img src="image/chef2.png">
 
-            </div>
+                        <div class="info">
+                            <h2 class="name">Sebastian Lopez</h2>
+                            <p class="bio">Programador</p>
 
-            <div class="profile">
-                <img src="image/chef2.png">
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
 
-                <div class="info">
-                    <h2 class="name">Sebastian Lopez</h2>
-                    <p class="bio">Programador</p>
+                        </div>
 
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
                     </div>
-
-                </div>
-
-            </div>
 
         </section>
-       
+
     </main>
- 
 
-<section class="footer">
 
-    <div class="share">
-        <a href="https://www.facebook.com/SENA" class="fab fa-facebook-f"></a>
-        <a href="https://twitter.com/SENAComunica" class="fab fa-twitter"></a>
-        <a href="https://www.instagram.com/senacomunica/" class="fab fa-instagram"></a>
-        <a href="https://co.linkedin.com/school/servicio-nacional-de-aprendizaje-sena-/" class="fab fa-linkedin"></a>
-        <a href="https://co.pinterest.com/senacomunica/" class="fab fa-pinterest"></a>
-    </div>
+    <section class="footer">
 
-    <div class="links">
-    <a href="<?php echo e(route('home')); ?>">inicio</a>
-        <a href="#about">acerca de</a>
-        <a href="<?php echo e(route('menu')); ?>">menu</a>
-        <a href="<?php echo e(route('productos')); ?>">productos</a>
-        <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
-        <a href="{{route('contactos')}}">contacto</a>
-        <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
-    </div>
+        <div class="share">
+            <a href="https://www.facebook.com/SENA" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/SENAComunica" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/senacomunica/" class="fab fa-instagram"></a>
+            <a href="https://co.linkedin.com/school/servicio-nacional-de-aprendizaje-sena-/" class="fab fa-linkedin"></a>
+            <a href="https://co.pinterest.com/senacomunica/" class="fab fa-pinterest"></a>
+        </div>
 
-    <div class="credit">creado por <span>Senakitch</span> | Todos los derechos reservados</div>
+        <div class="links">
+            <a href="<?php echo e(route('home')); ?>">inicio</a>
+            <a href="#about">acerca de</a>
+            <a href="<?php echo e(route('menu')); ?>">menu</a>
+            <a href="<?php echo e(route('productos')); ?>">productos</a>
+            <a href="<?php echo e(route('opiniones')); ?>">opiniones</a>
+            <a href="{{route('contactos')}}">contacto</a>
+            <a href="<?php echo e(route('recetas')); ?>">Recetas</a>
+        </div>
 
-</section>
+        <div class="credit">creado por <span>Senakitch</span> | Todos los derechos reservados</div>
+
+    </section>
 </body>
 
 </html>
