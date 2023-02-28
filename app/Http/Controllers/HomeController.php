@@ -27,12 +27,16 @@ class HomeController extends Controller
         return view('home.recetas');
     }
 
-    public function contactos(){
-        return view('home.contactos');
-    }
-
     public function nosotros(){
         return view('home.nosotros');
+    }
+    
+    public function formulario(){
+        return view('home.formulario');
+    }
+
+    public function store(){
+
     }
 
 

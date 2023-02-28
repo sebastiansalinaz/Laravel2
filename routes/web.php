@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactanosController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
@@ -7,7 +8,9 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\RecetasController;
 use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\Routing\Annotation\Route as AnnotationRoute;
 use Symfony\Component\Routing\Route as ComponentRoutingRoute;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -39,8 +42,11 @@ Route::get('/gost',[HomeController::class,'gost'])->name('productos');
 Route::get('/recetas',[HomeController::class,'recetas'])->name('recetas');
 Route::get('/Register', [RegisterController::class, 'show'])->name('register');
 Route::post('/Register', [RegisterController::class, 'showRegister'])->name('registerPost');
-Route::get('/contactos',[HomeController::class,'contactos'])->name('contactos');
+Route::get('/contactanos',[ContactanosController::class,'contactos'])->name('contactos');
+Route::post('contactanos',[ContactanosController::class,'stor'])->name('contactanos.stor');
 Route::get('/nosotros',[HomeController::class,'nosotros'])->name('nosotros');
+Route::get('/formulario',[HomeController::class,'formulario']);
+Route::post('/formulario', [HomeController::class,'store'])->name('formulario.store');
 
 
 
